@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #eeeff1;
+}
+
+.navbar {
+    display: flex;
+    background-color: #eeeff1;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+
+    .logo h4 a {
+        text-decoration: none;
+
+        font-family: "Pacifico", cursive;
+        letter-spacing: 6px;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    li a {
+        font-size: 0.9em;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        color: white;
+        border-bottom: 3px solid white;
+        transition: all 0.3s ease;
+    }
+}
+
+.home {
+    height: 100vh;
+    margin-left: 100px;
+    margin-top: -40px;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+
+    .bio {
+        // padding-bottom: 10px;
+        margin: 25px;
+        line-height: 25px;
+
+        h1 {
+            font-size: 40px;
+        }
+
+        .tombol {
+            height: 40px;
+            width: 130px;
+            font-weight: 700;
+            margin-top: 30px;
+            border-radius: 7px;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.4s;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .tombol:hover {
+            color: white;
+            background-color: black;
+            transform: scale(1.2);
+        }
+    }
+
+    img {
+        width: 250px;
+        border-radius: 25px;
+        transition: transform 0.4s;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+    }
+}
+
+.btn-about a {
+    float: right;
+    margin-top: -130px;
+    margin-right: 80px;
+
+    svg {
+        color: black;
+        position: fixed;
+        width: 40px;
+        height: 60px;
+        // border-radius: 70%;
+        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+#about {
+    height: 100vh;
+    text-align: center;
+    margin: 0 50px;
+
+    img {
+        padding-top: 20px;
+        height: 180px;
+    }
+
+    p {
+        line-height: 30px;
+        padding-top: 20px;
+    }
+
+    .kutipan {
+        font-style: italic;
+    }
+
+    h2 {
+        padding-top: 25px;
+    }
+}
+
+#education {
+    height: 100vh;
+
+    .tabel {
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+        table,
+        th,
+        td {
+            width: 360px;
+            height: 30px;
+            border: 1px solid black;
+        }
+    }
+}
+
+#experience {
+    height: 100vh;
+    margin-top: 80px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    h4 {
+        padding-top: 10px;
+    }
+
+    h2 {
+        padding-bottom: 20px;
+    }
+
+    p {
+        padding-top: 10px;
+        margin: 0 50px;
+        font-size: .9em;
+    }
+
+    .card-pengalaman {
+        display: flex;
+        margin: 0 15px;
+        gap: 1.5rem;
+
+        .btn-info {
+            margin-top: 15px;
+            width: 100px;
+            height: 50px;
+            border-radius: 9px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .btn-info:hover {
+            background-color: rgb(192, 192, 192);
+            transition: all 0.3s ease;
+        }
+
+        .card-pengalaman-satu {
+            border-radius: 10px;
+            width: 35%;
+            background-color: white;
+            height: 470px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            img {
+                border-radius: 10px;
+                width: 98%;
+            }
+        }
+
+        .card-pengalaman-dua {
+            border-radius: 10px;
+            width: 35%;
+            background-color: white;
+            height: 470px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            img {
+                border-radius: 10px;
+                padding-top: 5px;
+                width: 98%;
+            }
+
+            .btn-info {
+                margin-top: 25px;
+                width: 100px;
+                height: 50px;
+                border-radius: 9px;
+                border: none;
+                cursor: pointer;
+                font-weight: bold;
+            }
+        }
+
+        .card-pengalaman-tiga {
+            border-radius: 10px;
+            width: 35%;
+            background-color: white;
+            height: 470px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            img {
+                border-radius: 10px;
+                padding-top: 5px;
+                width: 98%;
+            }
+
+            .btn-info {
+                margin-top: 25px;
+                width: 100px;
+                height: 50px;
+                border-radius: 9px;
+                border: none;
+                cursor: pointer;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+// Skill
+#skill {
+    height: 100vh;
+    text-align: center;
+    margin: -100px 0;
+    padding: 15px 0;
+
+    .card-skill {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+
+        h4 {
+            padding-top: 15px;
+        }
+
+        img {
+            padding-top: 25px;
+            width: 200px;
+        }
+
+        .skill-satu {
+            width: 300px;
+            height: 280px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .skill-dua {
+            width: 300px;
+            height: 280px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .skill-tiga {
+            width: 300px;
+            height: 280px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    }
+}
+
+// Project Section
+#project {
+    height: 100vh;
+    margin-top: -300px;
+    text-align: center;
+
+
+    .card-project {
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+
+
+        .project-satu {
+            border-radius: 10px;
+            margin: auto;
+            width: 500px;
+            height: 420px;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+
+        img {
+            border-radius: 12px;
+            padding-top: 5px;
+            width: 98%;
+        }
+
+        h4 {
+            padding-top: 20px;
+        }
+
+        p {
+            padding-top: 10px;
+            margin: 0 10px;
+            font-size: small;
+        }
+
+        .btn-project {
+            margin-top: 20px;
+            width: 120px;
+            height: 46px;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn-project:hover {
+            background-color: rgb(192, 192, 192);
+            transition: all 0.3s ease;
+        }
+    }
+}
+
+#galery {
+    height: 100vh;
+    text-align: center;
+    margin-top: -160px;
+    padding-top: 20px;
+    height: 800px;
+
+    .galeri {
+        padding-top: 20px;
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        img {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            border-radius: 10px;
+            width: 26%;
+            transition: transform 0.4s;
+        }
+
+        img:hover {
+
+            transform: scale(1.1);
+        }
+    }
+}
+
+#contact {
+    form {
+        padding-top: 20px;
+        background-color: white;
+        width: 640px;
+        margin: 50px auto;
+        max-width: 97%;
+        border-radius: 4px;
+        padding: 47px 30px;
+
+        .tittle {
+            h2 {
+                letter-spacing: 6px;
+                border-bottom: 1px solid black;
+                display: inline-block;
+                padding-bottom: 8px;
+                margin-bottom: 32px;
+            }
+        }
+
+        .half {
+            display: flex;
+            justify-content: space-between;
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 24px;
+                width: 48%;
+
+                input {
+                    border-radius: 4px;
+                    border: 1px solid black;
+                    outline: 0;
+                    // padding: 16px;
+                    width: 100%;
+                    height: 44px;
+                    background: transparent;
+                    font-size: 17px;
+                }
+            }
+        }
+
+        label {
+            display: block;
+            font-size: 13px;
+            letter-spacing: 3.5px;
+            margin-bottom: 16px;
+        }
+
+        .full {
+            margin-bottom: 24px;
+
+            textarea {
+                background: transparent;
+                border-radius: 4px;
+                border: 1px solid black;
+                outline: 0;
+                // padding: 12px 16px;
+                width: 100%;
+                height: 200px;
+                font-size: 17px;
+            }
+        }
+
+        .action {
+            margin-top: 32px;
+
+            input {
+                background: transparent;
+                border-radius: 4px;
+                border: 1px solid black;
+                cursor: pointer;
+                font-size: 13px;
+                font-weight: 600;
+                height: 44px;
+                letter-spacing: 3px;
+                outline: 0;
+                padding: 0 20px 0 22px;
+                margin-right: 10px;
+            }
+        }
+    }
+}

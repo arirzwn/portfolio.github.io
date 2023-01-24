@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eeeff1;
+}
+
+.navbar {
+  display: flex;
+  background-color: #eeeff1;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+}
+.navbar .logo h4 a {
+  text-decoration: none;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 6px;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 40%;
+  justify-content: space-between;
+}
+.navbar li a {
+  font-size: 0.9em;
+  text-decoration: none;
+}
+.navbar li a:hover {
+  color: white;
+  border-bottom: 3px solid white;
+  transition: all 0.3s ease;
+}
+
+.home {
+  height: 100vh;
+  margin-left: 100px;
+  margin-top: -40px;
+  display: flex;
+  align-items: center;
+}
+.home .bio {
+  margin: 25px;
+  line-height: 25px;
+}
+.home .bio h1 {
+  font-size: 40px;
+}
+.home .bio .tombol {
+  height: 40px;
+  width: 130px;
+  font-weight: 700;
+  margin-top: 30px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.4s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.home .bio .tombol:hover {
+  color: white;
+  background-color: black;
+  transform: scale(1.2);
+}
+.home img {
+  width: 250px;
+  border-radius: 25px;
+  transition: transform 0.4s;
+}
+.home img:hover {
+  transform: scale(1.1);
+}
+
+.btn-about a {
+  float: right;
+  margin-top: -130px;
+  margin-right: 80px;
+}
+.btn-about a svg {
+  color: black;
+  position: fixed;
+  width: 40px;
+  height: 60px;
+}
+
+#about {
+  height: 100vh;
+  text-align: center;
+  margin: 0 50px;
+}
+#about img {
+  padding-top: 20px;
+  height: 180px;
+}
+#about p {
+  line-height: 30px;
+  padding-top: 20px;
+}
+#about .kutipan {
+  font-style: italic;
+}
+#about h2 {
+  padding-top: 25px;
+}
+
+#education {
+  height: 100vh;
+}
+#education .tabel {
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#education .tabel table,
+#education .tabel th,
+#education .tabel td {
+  width: 360px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+#experience {
+  height: 100vh;
+  margin-top: 80px;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#experience h4 {
+  padding-top: 10px;
+}
+#experience h2 {
+  padding-bottom: 20px;
+}
+#experience p {
+  padding-top: 10px;
+  margin: 0 50px;
+  font-size: 0.9em;
+}
+#experience .card-pengalaman {
+  display: flex;
+  margin: 0 15px;
+  gap: 1.5rem;
+}
+#experience .card-pengalaman .btn-info {
+  margin-top: 15px;
+  width: 100px;
+  height: 50px;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+#experience .card-pengalaman .btn-info:hover {
+  background-color: rgb(192, 192, 192);
+  transition: all 0.3s ease;
+}
+#experience .card-pengalaman .card-pengalaman-satu {
+  border-radius: 10px;
+  width: 35%;
+  background-color: white;
+  height: 470px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#experience .card-pengalaman .card-pengalaman-satu img {
+  border-radius: 10px;
+  width: 98%;
+}
+#experience .card-pengalaman .card-pengalaman-dua {
+  border-radius: 10px;
+  width: 35%;
+  background-color: white;
+  height: 470px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#experience .card-pengalaman .card-pengalaman-dua img {
+  border-radius: 10px;
+  padding-top: 5px;
+  width: 98%;
+}
+#experience .card-pengalaman .card-pengalaman-dua .btn-info {
+  margin-top: 25px;
+  width: 100px;
+  height: 50px;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+#experience .card-pengalaman .card-pengalaman-tiga {
+  border-radius: 10px;
+  width: 35%;
+  background-color: white;
+  height: 470px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#experience .card-pengalaman .card-pengalaman-tiga img {
+  border-radius: 10px;
+  padding-top: 5px;
+  width: 98%;
+}
+#experience .card-pengalaman .card-pengalaman-tiga .btn-info {
+  margin-top: 25px;
+  width: 100px;
+  height: 50px;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#skill {
+  height: 100vh;
+  text-align: center;
+  margin: -100px 0;
+  padding: 15px 0;
+}
+#skill .card-skill {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+#skill .card-skill h4 {
+  padding-top: 15px;
+}
+#skill .card-skill img {
+  padding-top: 25px;
+  width: 200px;
+}
+#skill .card-skill .skill-satu {
+  width: 300px;
+  height: 280px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#skill .card-skill .skill-dua {
+  width: 300px;
+  height: 280px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#skill .card-skill .skill-tiga {
+  width: 300px;
+  height: 280px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#project {
+  height: 100vh;
+  margin-top: -300px;
+  text-align: center;
+}
+#project .card-project {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+#project .card-project .project-satu {
+  border-radius: 10px;
+  margin: auto;
+  width: 500px;
+  height: 420px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#project .card-project img {
+  border-radius: 12px;
+  padding-top: 5px;
+  width: 98%;
+}
+#project .card-project h4 {
+  padding-top: 20px;
+}
+#project .card-project p {
+  padding-top: 10px;
+  margin: 0 10px;
+  font-size: small;
+}
+#project .card-project .btn-project {
+  margin-top: 20px;
+  width: 120px;
+  height: 46px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#project .card-project .btn-project:hover {
+  background-color: rgb(192, 192, 192);
+  transition: all 0.3s ease;
+}
+
+#galery {
+  height: 100vh;
+  text-align: center;
+  margin-top: -160px;
+  padding-top: 20px;
+  height: 800px;
+}
+#galery .galeri {
+  padding-top: 20px;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#galery .galeri img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  width: 26%;
+  transition: transform 0.4s;
+}
+#galery .galeri img:hover {
+  transform: scale(1.1);
+}
+
+#contact form {
+  padding-top: 20px;
+  background-color: white;
+  width: 640px;
+  margin: 50px auto;
+  max-width: 97%;
+  border-radius: 4px;
+  padding: 47px 30px;
+}
+#contact form .tittle h2 {
+  letter-spacing: 6px;
+  border-bottom: 1px solid black;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 32px;
+}
+#contact form .half {
+  display: flex;
+  justify-content: space-between;
+}
+#contact form .half .item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: 48%;
+}
+#contact form .half .item input {
+  border-radius: 4px;
+  border: 1px solid black;
+  outline: 0;
+  width: 100%;
+  height: 44px;
+  background: transparent;
+  font-size: 17px;
+}
+#contact form label {
+  display: block;
+  font-size: 13px;
+  letter-spacing: 3.5px;
+  margin-bottom: 16px;
+}
+#contact form .full {
+  margin-bottom: 24px;
+}
+#contact form .full textarea {
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid black;
+  outline: 0;
+  width: 100%;
+  height: 200px;
+  font-size: 17px;
+}
+#contact form .action {
+  margin-top: 32px;
+}
+#contact form .action input {
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  height: 44px;
+  letter-spacing: 3px;
+  outline: 0;
+  padding: 0 20px 0 22px;
+  margin-right: 10px;
+} /*# sourceMappingURL=styles.css.map */
